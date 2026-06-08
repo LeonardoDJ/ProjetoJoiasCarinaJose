@@ -225,7 +225,7 @@
   }
 
   .sobre-badge {
-    position: absolute; top: 47%; left: 54%;
+    position: absolute; top: 60%; left: 40%;
     transform: translate(-50%, -50%);
     background: var(--gold); width: 98px; height: 98px; border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
@@ -352,6 +352,7 @@
     text-decoration: none; font-weight: 500;
     transition: all 0.4s cubic-bezier(.22,1,.36,1);
     position: relative; overflow: hidden;
+    border-radius: 10px;
   }
   .btn-whats-big::after {
     content: ''; position: absolute; inset: 0;
@@ -365,12 +366,13 @@
 
   .btn-insta-big {
     display: inline-flex; align-items: center; gap: 14px;
-    background: #25D366; color: #fff;
+    background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4); color: #fff;
     padding: 20px 52px; font-size: 0.82rem;
     letter-spacing: 0.2em; text-transform: uppercase;
     text-decoration: none; font-weight: 500;
     transition: all 0.4s cubic-bezier(.22,1,.36,1);
     position: relative; overflow: hidden;
+    border-radius: 10px;
   }
   .btn-insta-big::after {
     content: ''; position: absolute; inset: 0;
@@ -379,7 +381,7 @@
     transition: transform 0.4s cubic-bezier(.22,1,.36,1);
   }
   .btn-insta-big:hover::after { transform: translateX(0); }
-  .btn-insta-big:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(37,211,102,0.45); }
+  .btn-insta-big:hover { transform: translateY(-3px); box-shadow: 0 12px 32px rgba(221, 42, 123, 0.45); }
 
 
 
